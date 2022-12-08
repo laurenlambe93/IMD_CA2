@@ -157,7 +157,7 @@
 
 			</section>
 
-			<!-- About Us page -->
+			<!-- About Me page -->
 			<section id="about" class="topics">
 				<div class="container pt-5">
 					<h4 id='topic_title' class="text-center text-uppercase pt-5">A Bit About Me</h4>
@@ -175,7 +175,8 @@
 									<br>
 									I am currently a final year student in TU Dublin, Tallaght studying a BSc in
 									Computing with Software Development, and I am due to graduate in 2023.
-									I am seeking a Graduate Software Development Engineer role commencing in summer/autumn 2023.
+									I am seeking a Graduate Software Development Engineer role commencing in
+									summer/autumn 2023.
 									<br>
 									I am an eager learner, and I am constantly looking for ways I can upskill and learn
 									new technologies and skills and I undertake Udemy courses in my own time.
@@ -504,7 +505,8 @@
 							</li>
 							<li><i class="fas fa-laptop"></i>Developed numerous web apps and projects using
 								HTML, CSS, Javascript, and Bootstrap.</li>
-							<li><i class="fas fa-code-branch"></i>Confident in using Git and GitHub for version control and source code management.</li>
+							<li><i class="fas fa-code-branch"></i>Confident in using Git and GitHub for version control
+								and source code management.</li>
 							<li><i class="fas fa-database"></i>Worked with both SQL and NoSQL databases, and used
 								Oracle 11G gor queries as well as Enterprise Manager for database administratio</li>
 							<li><i class="fas fa-chart-bar"></i>Analysed data using tools like Tableau, Excel, Pandas,
@@ -514,7 +516,8 @@
 							<li><i class="fas fa-wifi"></i>Designed, built, and troubleshooted networks using routers
 								and switches using related
 								tools, and I am capable of configuring a router using the Cisco IOS command set.</li>
-							<li><i class="fas fa-cloud"></i>Used Cloud services such as Azure and AWS throughout my course so far.</li>
+							<li><i class="fas fa-cloud"></i>Used Cloud services such as Azure and AWS throughout my
+								course so far.</li>
 						</ul>
 						</p>
 						<h6 class="text-center">
@@ -788,7 +791,103 @@
 			<section id="experience" class="topics">
 				<div class="container pt-5">
 					<h4 id='topic_title' class="text-center text-uppercase pt-5">My Experience</h4>
-					
+					<div class="main-wrapper">
+						<section>
+							<br>
+							<div class="row">
+								<div class="col-4">
+									<a href="https://www.workday.com/" target="_blank">
+										<img src="images/workday.png" alt="oath" class="img-responsive-logo">
+									</a>
+								</div>
+								<div class="col-4">
+									<h6><i class="fa fa-user"></i> Software Development Engineer Intern</h6>
+									<br>
+									<h6><i class="fa fa-calendar"></i> February 2022 to August 2022</h6>
+									<br>
+									<h6><i class="fa fa-map-marker"></i> Smithfield, Dublin 7</h6>
+
+								</div>
+								<div class="col-4">
+									<iframe class="card-img" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBZ5IpWnboZ1ywiL5jEcenpG6kwswpJQfg
+									&q=Kings+building, Smithfield+Dublin 7">
+										</iframe>
+								</div>
+							</div>
+						</section>
+						<br>
+						<section>
+							<h5><i class="fas fa-list"></i>  <strong>Main Responsibilities</strong></h5>
+							<div>
+								<p>
+									<li>Work in an agile team which includes: daily standups, kanban boards, 2 week sprints, and Jira for our ticket management.
+									</li>
+									<li>
+										Attend a stand-up each Friday with our sister team in the US, and update them on work progress.
+									</li>
+									<li>
+										Report to my manager for a 1:1 meetings once a week, and meet with my mentor whenever needed.
+									</li>
+									<li>
+										Used technologies such as: Python, Terraform, AWS, and Bash.
+									</li>
+								</p>
+							</div>
+						</section>
+						<br>
+						<section>
+							<h5><i class="fas fa-laptop-code"></i>  <strong>Projects Worked On</strong></h5>
+							<div class="row">
+								<div class="col-6">
+									<ul>
+
+										<li><strong>Bash Script</strong></li>
+										<ul>
+											<li> The aim of the script was to iterate through all of our environments and first check which of our Terraform modules within each environment had a version tag associated with it.</li>
+											<li>If it had a valid tag, it was to be skipped. If it had a tag but an invalid one or no tag, it was to be assigned the tag v1.0.0. </li>
+											<li>Once I had manually tested that I was getting the correct data back about each module, I then ran the script which correctly tagged the untagged and invalid tags on all modules. </li>
+										</ul>
+										<br>
+										<li><strong>Python Script</strong></li>
+										<ul>
+											<li>The aim of this script was to provide a command line tool for users to call the script and see a few different things based on sub-commands: </li>
+												<ul>
+													<li>The first sub-command command lists where a certain Terraform module is used/referenced within the repo for the user along with what tagged version each instance of the module has. </li>
+													<li>The second sub-command lists all the tagged releases for a specific module within the repo for the user. </li>
+													<li>And the last sub command allows the user to update a modules version by naming the module they want to update, which version they want to update from, and which version they would like to update to.</li>
+												</ul>
+										</ul>
+									</ul>
+								</div>
+								<div class="col-6">
+									<ul>
+									
+										<li><strong>AMI Age Dashboard</strong></li>
+										<ul>
+											<li> The dashboard displays numerous calculations and percentages about our Amazon Machine Images(AMIs). I was assigned a ticket to improve the dashboard by doing the following:</li>
+												<ul>
+													<li>Remove/breakout any instances that are not concerned with our team (IPC) into a separate dashboard</li>
+													<li>Adjust the queries to ensure accuracy.</li>
+													<li>Detail how the ages are calculated and how the graphs are populated</li>
+												</ul>
+										</ul>
+										<br>
+										<li><strong>Lambda Consolidation</strong></li>
+										<ul>
+											<li>I was assigned a ticket to consolidate the 2 Lambdas that were concerned with the dashboards:</li>
+												<ul>
+													<li>A spider lambda that combed the environments and retrieved the AMI information</li>
+													<li>And a sensu lambda that took the retrieved data and stored it in DynamoDB and populated the dashboards</li>
+												</ul>
+											<li>The purpose of this was to improve the accuracy of the age calculations of the AMIs by instead of what we currently do and calculate the age based off of the current date, we are now going to look at the creation date for the most recent version of the AMI. </li>
+											<li>I removed redundant code, eliminated our need for MongoDB, cleaned up and merged the functions, and then implented the new method of calculations </li>
+										</ul>
+									
+									</ul>
+								</div>
+							</div>
+						</section>
+					</div>
 				</div>
 			</section>
 			<br><br><br><br><br><br><br>
@@ -900,7 +999,7 @@
 							<li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
 							<li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
 							<li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
-							<li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+							<li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
 						</ul>
 						<div class="carousel-inner">
 							<div class="carousel-item bg-dark active ">
@@ -1017,7 +1116,8 @@
 										<i id="icon" class="fab fa-linkedin fa-5x mb-3" aria-hidden="true"></i>
 										<h4 class="text-uppercase mb-2">LinkedIn</h4>
 										<a href="https://www.linkedin.com/in/laurenlambe/" class="pb-2"
-											target="_blank">Lauren Lambe LinkedIn</a>
+											target="_blank">Lauren
+											Lambe LinkedIn</a>
 										<br>
 										<br>
 										<p>-------------------</p>

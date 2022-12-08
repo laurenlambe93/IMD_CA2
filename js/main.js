@@ -8,9 +8,11 @@ function resetForm() {
   form.reset();
 };
 
-$(function () {
-  $('[data-bs-toggle="popover"]').popover()
-})
+
+$(document).ready(function(){
+  $('[data-bs-toggle="popover"]').popover();
+});
+
 
 function checkValidation() {
   $('#sentModal').show()

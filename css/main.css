@@ -32,7 +32,6 @@ p {
 
 #accordion-button {
     background-color:darkgrey;
-    text-decoration: aliceblue;
 }
 
 #accordion-button:hover {
@@ -100,17 +99,24 @@ p {
     left: 60%;
 }
 
-.course{
+.jobtitle{
     position: absolute;
     color: cadetblue;
     top: 45%;
+    left: 50%;
+}
+
+.course{
+    position: absolute;
+    color: cadetblue;
+    top: 55%;
     left: 44%;
 }
 
 .contact-button {
     position: absolute;
     background-color: cadetblue;
-    top: 60%;
+    top: 63%;
     left: 64%;
 }
 
@@ -133,9 +139,19 @@ p {
 
 #skill-nav-tabs {
     text-align: center;
-    background-color: darkgrey;
+    background-color:darkgrey;
+    text-decoration: aliceblue;
 }
 
 #skill-nav-tabs li a:hover {
-    color:  #58cd25 !important;
+    color:aliceblue !important;
 }
+
+#skill-nav li a {
+    background-color:darkgrey;
+}
+
+.list-unstyled i {
+    display: inline-block;
+    width: 30px;
+  }

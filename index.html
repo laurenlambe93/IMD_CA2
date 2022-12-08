@@ -76,7 +76,9 @@
 			</ul>
 		</div>
 	</nav>
+	<!--End of Navbar-->
 
+	<!--SCROLLSPY-->
 	<div data-spy="scroll" data-target="#main-navbar" data-offset="0">
 		<main>
 			<!-- Home page -->
@@ -91,8 +93,11 @@
 							<div class="name">
 								<h2>Lauren Lambe</h2>
 							</div>
+							<div class="jobtitle">
+								<h2>Software Development Engineer</h2>
+							</div>
 							<div class="course">
-								<h2>BSc in Comupting with Software Development</h2>
+								<h2>BSc in Computing with Software Development</h2>
 							</div>
 							<div class="contact-button"><button type="button" class="btn pt-2 btn-send btn-block"
 									data-bs-toggle="modal" data-bs-target="#contactModal"><strong>Contact
@@ -167,12 +172,10 @@
 									<br>
 									<br>
 									<br>
+									<br>
 									I am currently a final year student in TU Dublin, Tallaght studying a BSc in
 									Computing with Software Development, and I am due to graduate in 2023.
-									I have always had a keen interest in how things operate and function, especially
-									technology, and when on a website I was always curious as to how a
-									certain piece of functionality worked, so that ignited my pursuit of studying in
-									this field.
+									I am seeking a Graduate Software Development Engineer role commencing in summer/autumn 2023.
 									<br>
 									I am an eager learner, and I am constantly looking for ways I can upskill and learn
 									new technologies and skills and I undertake Udemy courses in my own time.
@@ -199,41 +202,22 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<p>
-								<img class="img-thumnail float-right ml-2 mb-1" src="images/school.png" width="20%">
-								I attended the Insitute of Education, Leeson Street, Dublin 2 for completion of my
-								leaving certificate in 2011.
-								I studied English, Maths, Irish, German, Biology, Geography, Design and Communication
-								Graphics.
-
 								<img class="img-thumnail float-left mr-2 mb-1" src="images/TUDublin_RGB.jpg"
 									width="20%">
-								We are a family business.....Lorem Ipsum is simply dummy text of the printing and
-								typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-								since
-								the 1500s,
-								when an unknown printer took a galley of type and scrambled it to make a type
-								specimen
-								book. It has survived not only five centuries, but also the leap into
-								electronic typesetting, remaining essentially unchanged. It was popularised in the
-								1960s
-								with the release of Letraset sheets containing Lorem Ipsum passages,
-								and more recently with desktop publishing software like Aldus PageMaker including
-								versions of Lorem Ipsum
-								We are a family business.....Lorem Ipsum is simply dummy text of the printing and
-								typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-								since
-								the 1500s,
-								when an unknown printer took a galley of type and scrambled it to make a type
-								specimen
-								book. It has survived not only five centuries, but also the leap into
-								electronic typesetting, remaining essentially unchanged. It was popularised in the
-								1960s
-								with the release of Letraset sheets containing Lorem Ipsum passages,
-								and more recently with desktop publishing software like Aldus PageMaker including
-								versions of Lorem Ipsum
+								I am currently a 4th Year student in TU Dublin - Tallaght Campus studying BSc in
+								Computing with Software Development, and I am due to graduate in 2023.
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								Below are all my modules, grades, and GPA for each year of my studies.
+
 							</p>
 						</div>
 					</div>
+					<br>
+					<!--ACCORDION & COLLAPSE-->
 					<div class="accordion" id="educationAccordion">
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingOne">
@@ -249,6 +233,7 @@
 									<strong>Year 4 GPA: TBC</strong>
 									</br>
 									</br>
+									<!--TABLE-->
 									<div class="table-responsive">
 										<table class="table table-sm">
 											<thead class="table-dark">
@@ -504,37 +489,66 @@
 			</section>
 			<br><br><br><br><br><br><br>
 
-
+			<!--Skills Page-->
 			<section id="skills" class="topics">
 				<div class="container pt-5">
 					<h4 id='topic_title' class="text-center text-uppercase pt-5">My Skills</h4>
-					<p class="text-center w-75 m-auto">Below you will find some of my skills.</p>
+					<br>
+					<br>
+					<div>
+						<h5 class="text-center"><strong>Skills Overview</strong></h5>
+						<p>
+							Throughout my studies so far I have:
+						<ul class="list-unstyled">
+							<li><i class="fas fa-laptop-code"></i>Covered languages such as Python, Java, C# and C++
+							</li>
+							<li><i class="fas fa-laptop"></i>Developed numerous web apps and projects using
+								HTML, CSS, Javascript, and Bootstrap.</li>
+							<li><i class="fas fa-code-branch"></i>Confident in using Git and GitHub for version control and source code management.</li>
+							<li><i class="fas fa-database"></i>Worked with both SQL and NoSQL databases, and used
+								Oracle 11G gor queries as well as Enterprise Manager for database administratio</li>
+							<li><i class="fas fa-chart-bar"></i>Analysed data using tools like Tableau, Excel, Pandas,
+								Matplotlib and Python.</li>
+							<li><i class="fas fa-network-wired"></i>Analysed and designed systems using UML, including
+								use case diagrams, class diagrams and sequence diagrams.</li>
+							<li><i class="fas fa-wifi"></i>Designed, built, and troubleshooted networks using routers
+								and switches using related
+								tools, and I am capable of configuring a router using the Cisco IOS command set.</li>
+							<li><i class="fas fa-cloud"></i>Used Cloud services such as Azure and AWS throughout my course so far.</li>
+						</ul>
+						</p>
+						<h6 class="text-center">
+							<strong>Below you can view my skills further using the tabs.</strong>
+						</h6>
+					</div>
+					<!--Second Nav Bar -->
 					<div class="text-center" id="skill-nav">
-						<ul class="nav nav-tabs" id="skill-nav-tabs" role="tablist">
+						<ul class="nav nav-pills justify-content-center" id="skill-nav-tabs">
 							<li class="nav-item">
-								<a class="nav-link active" data-bs-toggle="tab" href="#languages" role="tab">Programming
-									Languages</a>
+								<a class="nav-link active" data-bs-toggle="tab" href="#languages"><strong>Programming
+										Languages</strong></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="tab" href="#frameworks" role="tab">Frameworks & Web
-									Development</a>
+								<a class="nav-link" data-bs-toggle="tab" href="#frameworks"><strong>Frameworks & Web
+										Development</strong></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="tab" href="#other" role="tab">Other IT Skills</a>
+								<a class="nav-link" data-bs-toggle="tab" href="#other"><strong>Other IT
+										Skills</strong></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="tab" href="#interpersonal" role="tab">Interpersonal
-									Skills</a>
+								<a class="nav-link" data-bs-toggle="tab" href="#interpersonal"><strong>Interpersonal
+										Skills</strong></a>
 							</li>
 						</ul>
 					</div>
+					<!--End of Second Nav-->
 
-					<!-- Tab pages -->
+					<!-- Tab pages - Progress Bars -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="languages" role="tabpanel">
 							<section class="section languages-section">
 								<br>
-								<h5 class="section-title text-center">Programming Languages</h5>
 								<div class="skillset">
 									<div class="bar">
 										<div class="progress" style="height: 30px;">
@@ -597,7 +611,6 @@
 						<div class="tab-pane " id="frameworks" role="tabpanel">
 							<section class="section frameworkd-section">
 								<br>
-								<h5 class="section-title text-center">Frameworks & Web Development</h5>
 								<div class="skillset">
 									<div class="bar">
 										<div class="progress" style="height: 30px">
@@ -652,13 +665,12 @@
 						<div class="tab-pane" id="other" role="tabpanel">
 							<section class="section other-section">
 								<br>
-								<h5 class="section-title text-center">Other IT Skills</h5>
 								<div class="skillset">
 									<div class="bar">
 										<div class="progress" style="height: 30px;">
 											<div class="progress-bar-striped bg-success text-white" role="progressbar"
-												style="width: 95%; border: 2em; border-color: black;"
-												aria-bs-valuenow="95" aria-bs-valuemin="0" aria-bs-valuemax="100">SQL
+												style="width: 95%;" aria-bs-valuenow="95" aria-bs-valuemin="0"
+												aria-bs-valuemax="100">SQL
 											</div>
 										</div>
 									</div>
@@ -715,13 +727,12 @@
 						<div class="tab-pane" id="interpersonal" role="tabpanel">
 							<section class="section other-section">
 								<br>
-								<h5 class="section-title text-center">Interpersonal Skills</h5>
 								<div class="skillset">
 									<div class="bar">
 										<div class="progress" style="height: 30px;">
 											<div class="progress-bar-striped bg-success text-white" role="progressbar"
-												style="width: 100%; border: 2em; border-color: black;"
-												aria-bs-valuenow="95" aria-bs-valuemin="0" aria-bs-valuemax="100">Time
+												style="width: 100%;" aria-bs-valuenow="95" aria-bs-valuemin="0"
+												aria-bs-valuemax="100">Time
 												Management
 											</div>
 										</div>
@@ -773,10 +784,11 @@
 			</section>
 			<br><br><br><br><br><br><br>
 
+			<!--Experience Page-->
 			<section id="experience" class="topics">
 				<div class="container pt-5">
-					<h4 id='topic_title' class="text-center text-uppercase pt-5">My Skills</h4>
-					<p class="text-center w-75 m-auto">Below you will find some of my skills.</p>
+					<h4 id='topic_title' class="text-center text-uppercase pt-5">My Experience</h4>
+					
 				</div>
 			</section>
 			<br><br><br><br><br><br><br>
@@ -789,6 +801,7 @@
 					<p class="text-center w-75 m-auto">Below you will find some of my previous work.</p>
 					<div class='row'>
 						<div class='col-4'>
+							<!--Flip Cards-->
 							<div class="flip-card m-2">
 								<div class="flip-card-inner">
 									<div class="flip-card-front">
@@ -842,6 +855,29 @@
 											<p>jnfadfioajsfpojasfasjpsdjfjrd edjfjeojtrei ewjfrweiofjwe aejdasd
 												eajfasjfaelk</p>
 											<a href="https://dev.azure.com/X00167132/DevOps%20CA2"
+												class="btn btn-secondary pt-2 pb-2" target="_blank">View my
+												repository!</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='col-4'>
+						</div>
+						<div class='col-4'>
+							<div class="flip-card m-2">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img src='images/tableau.png' alt='tableau' class='img-thumnail'
+											style="width: 90%; height: 80%;">
+										<h5>Tableau Project</h5>
+										<p>Interactive Media Design CA</p>
+									</div>
+									<div class="flip-card-back text-center pt-4">
+										<div class="pt-5 pb-5">
+											<p>jnfadfioajsfpojasfasjpsdjfjrd edjfjeojtrei ewjfrweiofjwe aejdasd
+												eajfasjfaelk</p>
+											<a href="https://github.com/laurenlambe93/IMD_CA1"
 												class="btn btn-secondary pt-2 pb-2" target="_blank">View my
 												repository!</a>
 										</div>
@@ -1007,20 +1043,23 @@
 								<div class="card mt-2 mx-auto p-4 bg-light">
 									<div class="card-body bg-light">
 										<div class="container">
-											<form class="row g-3" id="contact-form" role="form" name="contactform" onsubmit="return checkValidation()">
+											<form class="row g-3" id="contact-form" role="form" name="contactform"
+												onsubmit="return checkValidation()">
 												<div class="col-md-6">
 													<label for="validationDefault01" class="form-label">First
 														name</label>
-													<input type="text" name="firstname" class="form-control" id="validationDefault01"
+													<input type="text" name="firstname" class="form-control"
+														id="validationDefault01"
 														placeholder="Please Enter Your Last Name" required>
-														<p id="alert"></p>
+													<p id="alert"></p>
 												</div>
 												<div class="col-md-6">
 													<label for="validationDefault02" class="form-label">Last
 														name</label>
-													<input type="text" name='lastname' class="form-control" id="validationDefault02"
+													<input type="text" name='lastname' class="form-control"
+														id="validationDefault02"
 														placeholder="Please Enter Your Last Name" required>
-														<p id="alert"></p>
+													<p id="alert"></p>
 												</div>
 
 												<div class="col-md-12">
@@ -1029,7 +1068,7 @@
 													<input type="email" name="email" id="validationDefault03"
 														class="form-control"
 														placeholder="Please Enter Your Email Address" required>
-														<p id="alert"></p>
+													<p id="alert"></p>
 												</div>
 												<div class="col-md-12">
 													<label for="validationDefault04" class="form-label">Message</label>
@@ -1037,12 +1076,11 @@
 														class="form-control"
 														placeholder="Please Write Your Message Here" rows="4"
 														required></textarea>
-														<p id="alert"></p>
+													<p id="alert"></p>
 												</div>
 												<div class="col-md-12">
 													<button type="submit" class="btn pt-2 btn-send btn-block"
-														 id="mybutton"
-														>Send
+														id="mybutton">Send
 														Message</button>
 												</div>
 
@@ -1090,13 +1128,14 @@
 	<!-- End of content -->
 
 	<!-- Footer -->
-	<footer class=" text-center text-lg-start" style="background-color: #58cd25;">
+	<footer class=" text-center text-lg-start bg-dark">
 		<!-- Copyright -->
-		<div class="text-center p-3">
+		<div class="text-center p-3" style="color: #58cd25;">
 			© 2022 Copyright: Lauren Lambe IMD CA2
 		</div>
 		<!-- Copyright -->
 	</footer>
 	<!-- Footer -->
 </body>
+
 </html>
